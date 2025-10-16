@@ -23,33 +23,41 @@
 // Lưu form vào GG sheet
 
 const GOOGLE_SCRIPT_URL_THAM_DU =
-  "https://script.google.com/macros/s/AKfycby7FYN8wWPKRu3TlbsziN3dHioY_0Cx0Dq3bI5Sh4jYNmVFuDpkoRzIU89-j7PVfV6WWA/exec";
-document.querySelector("#form").addEventListener("submit", function (e) {
-  e.preventDefault();
-  const form = e.target; // Lấy form để reset sau này
-  const formData = new FormData(form);
-  let selected = formData.getAll("select_1");
-  console.log("vaoday", selected);
+  "https://script.google.com/macros/s/AKfycbzvp7W6fa0CZf-aHo2NyXoabqgs-OUf5RW8k2J6bJoHNY59a_kAqyYt4Y7Ftgr7WINu/exec";
+document
+  .querySelector("#form-loi-chuc")
+  .addEventListener("submit", function (e) {
+    e.preventDefault();
 
-  const data = {
-    name: "'" + form.full_name.value,
-    relationship: "'" + form.text_input_1.value,
-    message: "'" + form.text_input_2.value,
-    isInvite: selected.join(", "),
-  };
-  fetch(GOOGLE_SCRIPT_URL_THAM_DU, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-    },
-    body: JSON.stringify(data),
-  })
-    .then((res) => {
-      res.json();
-      form.reset(); // Reset form sau khi submit thành công
-    }) // Nếu Apps Script trả về JSON
-    .then((res) => console.log(res));
-});
+    const form = e.target; // Lấy form để reset sau này
+    const formData = new FormData(form);
+    let selected = formData.getAll("form_item7");
+    let selected_item12 = formData.getAll("form_item12");
+
+    console.log("selected", selected);
+    console.log("selected_item12", selected_item12);
+
+    const data = {
+      name: "'" + form.name.value,
+      isInvite: "'" + form.isInvite.value,
+      whereInvite: selected.join(", "),
+      relationship: selected_item12.join(", "),
+      messages: "'" + form.form_item11.value,
+    };
+    fetch(GOOGLE_SCRIPT_URL_THAM_DU, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
+      body: JSON.stringify(data),
+    })
+      .then((res) => {
+        res.json();
+        form.reset(); // Reset form sau khi submit thành công
+      }) // Nếu Apps Script trả về JSON
+      .then((res) => console.log(res))
+      .catch((err) => console.log(err));
+  });
 
 // Hiển thị notification
 //     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
@@ -84,15 +92,15 @@ document.querySelector("#form").addEventListener("submit", function (e) {
 </style> */
 }
 
-const sheetID = "1VGWHaefz0V1T6xaOasWkUlj_4Yn8ZUQyEC0wDo2MRtQ";
+const sheetID = "16xYJVTF009G_595KKgLOiZ6rQjsDXvvQqAiadA7Etuk";
 const url = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?tqx=out:json`;
 
 let messages = []; // Chuyển sang `let`
 
 // Cấu hình
 const config = {
-  displayDuration: 1000,
-  intervalTime: 17000,
+  displayDuration: 4000,
+  intervalTime: 8000,
 };
 
 let autoInterval;
