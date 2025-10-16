@@ -42,7 +42,7 @@ document
       isInvite: "'" + form.isInvite.value,
       whereInvite: selected.join(", "),
       relationship: selected_item12.join(", "),
-      messages: "'" + form.form_item11.value,
+      message: "'" + form.form_item11.value,
     };
     fetch(GOOGLE_SCRIPT_URL_THAM_DU, {
       method: "POST",
@@ -116,7 +116,7 @@ function createToast(messageData) {
             <div class="toast-text">
                 <div class="toast-title">${messageData["Tên"]}</div>
                 <div class="toast-message">${messageData["Lời chúc"]}</div>
-                <div class="toast-message">${messageData["Mối quan hệ"]}</div>
+                <div class="toast-message">${messageData["Bạn là khách của ai"]}</div>
             </div>
         </div>
     `;
