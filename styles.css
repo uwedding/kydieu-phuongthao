@@ -131,7 +131,9 @@
 #HEADLINE88.ladi-animation > .ladi-headline,
 #HEADLINE89.ladi-animation > .ladi-headline,
 #HEADLINE90.ladi-animation > .ladi-headline,
-#BUTTON9.ladi-animation > .ladi-button {
+#BUTTON9.ladi-animation > .ladi-button,
+#HEADLINE8.ladi-animation > .ladi-headline,
+#HEADLINE9.ladi-animation > .ladi-headline {
   animation-name: fadeInLeft;
   -webkit-animation-name: fadeInLeft;
   animation-delay: 0s;
@@ -160,7 +162,11 @@
 #IMAGE4.ladi-animation > .ladi-image,
 #IMAGE59.ladi-animation > .ladi-image,
 #BOX3.ladi-animation > .ladi-box,
-#HEADLINE4.ladi-animation > .ladi-headline {
+#HEADLINE4.ladi-animation > .ladi-headline,
+#HEADLINE362.ladi-animation > .ladi-headline,
+#HEADLINE335.ladi-animation > .ladi-headline,
+#HEADLINE336.ladi-animation > .ladi-headline,
+#HEADLINE337.ladi-animation > .ladi-headline {
   animation-name: zoomIn;
   -webkit-animation-name: zoomIn;
   animation-delay: 0s;
