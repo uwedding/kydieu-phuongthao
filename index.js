@@ -1,3 +1,23 @@
+// Chọn tất cả phần tử có class 'ladi-animation'
+const elements = document.querySelectorAll(".ladi-animation");
+
+const observer = new IntersectionObserver(
+  (entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("in-view"); // thêm class khi hiện ra
+        observer.unobserve(entry.target); // chỉ animate 1 lần
+      }
+    });
+  },
+  {
+    threshold: 0.2, // 20% phần tử xuất hiện trong viewport thì kích hoạt
+  }
+);
+
+// Quan sát tất cả phần tử
+elements.forEach((el) => observer.observe(el));
+
 // Chặn user F12
 // document.addEventListener("keydown", function (e) {
 //   // F12

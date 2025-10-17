@@ -1,0 +1,177 @@
+/* .ladi-animation {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+} */
+
+/* Khi scroll tới thì tự động thêm class .in-view */
+/* .ladi-animation.in-view {
+  opacity: 1;
+  transform: translateY(0);
+} */
+/* .animate-on-scroll {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.animate-on-scroll.animation {
+  opacity: 1;
+  transform: translateY(0);
+} */
+
+/* #HEADLINE5.ladi-animation .ladi-transition,
+#HEADLINE88.ladi-animation .ladi-headline,
+#HEADLINE89.ladi-animation .ladi-headline,
+#HEADLINE90.ladi-animation .ladi-headline,
+#IMAGE1.ladi-animation .ladi-image,
+#BUTTON9.ladi-animation > .ladi-button,
+#HEADLINE8.ladi-animation .ladi-headline,
+#HEADLINE334.ladi-animation .ladi-headline,
+#HEADLINE335.ladi-animation .ladi-headline,
+#HEADLINE356.ladi-animation .ladi-headline,
+#HEADLINE357.ladi-animation .ladi-headline,
+#LINE154.ladi-animation > .ladi-transition,
+#HEADLINE359.ladi-animation .ladi-headline,
+#LINE154,
+#LINE153,
+#LINE155,
+#LINE156,
+#HEADLINE360,
+#HEADLINE358,
+#HEADLINE355,
+#LINE152,
+#HEADLINE39,
+#HEADLINE41,
+#HEADLINE42 {
+  animation-name: fadeInLeft;
+  -webkit-animation-name: fadeInLeft;
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+}
+
+#HEADLINE91.ladi-animation > .ladi-headline,
+#PARAGRAPH18.ladi-animation > .ladi-paragraph,
+#BUTTON4,
+#HEADLINE9,
+#HEADLINE333,
+#HEADLINE336,
+#GROUP55,
+#HEADLINE349,
+#HEADLINE350,
+#HEADLINE352,
+#LINE150,
+#LINE151,
+#LINE149,
+#LINE148,
+#HEADLINE353,
+#HEADLINE351,
+#HEADLINE352,
+#HEADLINE348,
+#HEADLINE40,
+#HEADLINE44 {
+  animation-name: fadeInRight;
+  -webkit-animation-name: fadeInRight;
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+}
+
+#HEADLINE4.ladi-element .ladi-headline,
+#BOX3.animation > .ladi-transition,
+#HEADLINE8,
+#IMAGE120,
+#LINE147 {
+  animation-name: bounceInLeft;
+  -webkit-animation-name: bounceInLeft;
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+}
+
+#BOX78,
+#LINE142,
+#LINE143,
+#LINE144,
+#LINE145,
+#HEADLINE338,
+#HEADLINE339,
+#HEADLINE340,
+#HEADLINE341,
+#HEADLINE342,
+#HEADLINE343,
+#HEADLINE344,
+#HEADLINE345,
+#HEADLINE346,
+#LINE146,
+#HEADLINE362,
+#BOX80,
+#IMAGE3 {
+  animation-name: zoomIn;
+  -webkit-animation-name: zoomIn;
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+} */
+
+#IMAGE1.ladi-animation > .ladi-image,
+#HEADLINE88.ladi-animation > .ladi-headline,
+#HEADLINE89.ladi-animation > .ladi-headline,
+#HEADLINE90.ladi-animation > .ladi-headline,
+#BUTTON9.ladi-animation > .ladi-button {
+  animation-name: fadeInLeft;
+  -webkit-animation-name: fadeInLeft;
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+}
+
+#HEADLINE91.ladi-animation > .ladi-headline,
+#HEADLINE92.ladi-animation > .ladi-headline,
+#PARAGRAPH18.ladi-animation > .ladi-paragraph,
+#HEADLINE5.ladi-animation > .ladi-headline,
+#BUTTON4.ladi-animation > .ladi-button {
+  animation-name: fadeInRight;
+  -webkit-animation-name: fadeInRight;
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+}
+
+#IMAGE4.ladi-animation > .ladi-image,
+#IMAGE59.ladi-animation > .ladi-image,
+#BOX3.ladi-animation > .ladi-box,
+#HEADLINE4.ladi-animation > .ladi-headline {
+  animation-name: zoomIn;
+  -webkit-animation-name: zoomIn;
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+}
+
+/* #HEADLINE4.ladi-animation > .ladi-headline {
+  animation-name: bounceIn;
+  animation-duration: 3s;
+} */
