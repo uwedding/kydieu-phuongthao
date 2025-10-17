@@ -127,13 +127,24 @@
   -webkit-animation-duration: 4s;
 } */
 
-#IMAGE1.ladi-animation > .ladi-image,
-#HEADLINE88.ladi-animation > .ladi-headline,
-#HEADLINE89.ladi-animation > .ladi-headline,
-#HEADLINE90.ladi-animation > .ladi-headline,
-#BUTTON9.ladi-animation > .ladi-button,
-#HEADLINE8.ladi-animation > .ladi-headline,
-#HEADLINE9.ladi-animation > .ladi-headline {
+#IMAGE1.ladi-animation>.ladi-image,
+#HEADLINE88.ladi-animation>.ladi-headline,
+#HEADLINE89.ladi-animation>.ladi-headline,
+#HEADLINE90.ladi-animation>.ladi-headline,
+#BUTTON9.ladi-animation>.ladi-button,
+#HEADLINE8.ladi-animation>.ladi-headline,
+#HEADLINE9.ladi-animation>.ladi-headline,
+#HEADLINE334.ladi-animation>.ladi-headline,
+#HEADLINE41.ladi-animation>.ladi-headline,
+#HEADLINE42.ladi-animation>.ladi-headline,
+#HEADLINE48.ladi-animation>.ladi-headline,
+#HEADLINE49.ladi-animation>.ladi-headline,
+#IMAGE16.ladi-animation>.ladi-image,
+#IMAGE100.ladi-animation>.ladi-image,
+#IMAGE104.ladi-animation>.ladi-image,
+#IMAGE107.ladi-animation>.ladi-image,
+#IMAGE54.ladi-animation>.ladi-image,
+#IMAGE57.ladi-animation>.ladi-image {
   animation-name: fadeInLeft;
   -webkit-animation-name: fadeInLeft;
   animation-delay: 0s;
@@ -144,11 +155,20 @@
   -webkit-animation-duration: 2s;
 }
 
-#HEADLINE91.ladi-animation > .ladi-headline,
-#HEADLINE92.ladi-animation > .ladi-headline,
-#PARAGRAPH18.ladi-animation > .ladi-paragraph,
-#HEADLINE5.ladi-animation > .ladi-headline,
-#BUTTON4.ladi-animation > .ladi-button {
+#HEADLINE91.ladi-animation>.ladi-headline,
+#PARAGRAPH18.ladi-animation>.ladi-paragraph,
+#HEADLINE5.ladi-animation>.ladi-headline,
+#BUTTON4.ladi-animation>.ladi-button,
+#HEADLINE333.ladi-animation>.ladi-headline,
+#HEADLINE44.ladi-animation>.ladi-headline,
+#HEADLINE51.ladi-animation>.ladi-headline,
+#HEADLINE52.ladi-animation>.ladi-headline,
+#IMAGE99.ladi-animation>.ladi-image,
+#IMAGE109.ladi-animation>.ladi-image,
+#IMAGE106.ladi-animation>.ladi-image,
+#IMAGE103.ladi-animation>.ladi-image,
+#LIST_PARAGRAPH1.ladi-animation>.ladi-list-paragraph,
+#LIST_PARAGRAPH2.ladi-animation>.ladi-list-paragraph {
   animation-name: fadeInRight;
   -webkit-animation-name: fadeInRight;
   animation-delay: 0s;
@@ -159,14 +179,23 @@
   -webkit-animation-duration: 2s;
 }
 
-#IMAGE4.ladi-animation > .ladi-image,
-#IMAGE59.ladi-animation > .ladi-image,
-#BOX3.ladi-animation > .ladi-box,
-#HEADLINE4.ladi-animation > .ladi-headline,
-#HEADLINE362.ladi-animation > .ladi-headline,
-#HEADLINE335.ladi-animation > .ladi-headline,
-#HEADLINE336.ladi-animation > .ladi-headline,
-#HEADLINE337.ladi-animation > .ladi-headline {
+#IMAGE4.ladi-animation>.ladi-image,
+#IMAGE3.ladi-animation>.ladi-image,
+#IMAGE59.ladi-animation>.ladi-image,
+#BOX3.ladi-animation>.ladi-box,
+#HEADLINE4.ladi-animation>.ladi-headline,
+#HEADLINE362.ladi-animation>.ladi-headline,
+#HEADLINE335.ladi-animation>.ladi-headline,
+#HEADLINE336.ladi-animation>.ladi-headline,
+#HEADLINE337.ladi-animation>.ladi-headline,
+#HEADLINE362.ladi-animation>.ladi-headline,
+#IMAGE7.ladi-animation>.ladi-image,
+#PARAGRAPH4.ladi-animation>.ladi-paragraph,
+#HEADLINE86.ladi-animation>.ladi-headline,
+#GROUP40.ladi-animation>.ladi-group,
+#PARAGRAPH14.ladi-animation>.ladi-paragraph,
+#IMAGE51.ladi-animation>.ladi-image,
+#IMAGE56.ladi-animation>.ladi-image {
   animation-name: zoomIn;
   -webkit-animation-name: zoomIn;
   animation-delay: 0s;
@@ -175,6 +204,59 @@
   -webkit-animation-iteration-count: 1;
   animation-duration: 2s;
   -webkit-animation-duration: 2s;
+}
+
+#HEADLINE45.ladi-animation>.ladi-headline,
+#HEADLINE59.ladi-animation>.ladi-headline,
+#PARAGRAPH6.ladi-animation>.ladi-paragraph {
+  animation-name: bounceInLeft;
+  -webkit-animation-name: bounceInLeft;
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+}
+
+#IMAGE22.ladi-animation>.ladi-image,
+#IMAGE105.ladi-animation>.ladi-image,
+#IMAGE101.ladi-animation>.ladi-image,
+#IMAGE102.ladi-animation>.ladi-image,
+#IMAGE32.ladi-animation>.ladi-image,
+#PARAGRAPH13.ladi-animation>.ladi-paragraph,
+#IMAGE58.ladi-animation>.ladi-image {
+  animation-name: fadeInDown;
+  -webkit-animation-name: fadeInDown;
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+}
+
+#HEADLINE92.ladi-animation>.ladi-headline,
+#HEADLINE96.ladi-animation>.ladi-headline,
+#HEADLINE93.ladi-animation>.ladi-headline,
+#HEADLINE94.ladi-animation>.ladi-headline,
+#HEADLINE95.ladi-animation>.ladi-headline {
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+}
+
+#BUTTON15.ladi-animation>.ladi-button,
+#HEADLINE87.ladi-animation>.ladi-headline {
+  animation-name: pulse;
+  animation-delay: 0s;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 /* #HEADLINE4.ladi-animation > .ladi-headline {
