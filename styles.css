@@ -144,7 +144,8 @@
 #IMAGE104.ladi-animation>.ladi-image,
 #IMAGE107.ladi-animation>.ladi-image,
 #IMAGE54.ladi-animation>.ladi-image,
-#IMAGE57.ladi-animation>.ladi-image {
+#IMAGE57.ladi-animation>.ladi-image,
+#HEADLINE260.ladi-animation>.ladi-headline {
   animation-name: fadeInLeft;
   -webkit-animation-name: fadeInLeft;
   animation-delay: 0s;
@@ -168,7 +169,8 @@
 #IMAGE106.ladi-animation>.ladi-image,
 #IMAGE103.ladi-animation>.ladi-image,
 #LIST_PARAGRAPH1.ladi-animation>.ladi-list-paragraph,
-#LIST_PARAGRAPH2.ladi-animation>.ladi-list-paragraph {
+#LIST_PARAGRAPH2.ladi-animation>.ladi-list-paragraph,
+#HEADLINE261.ladi-animation>.ladi-headline {
   animation-name: fadeInRight;
   -webkit-animation-name: fadeInRight;
   animation-delay: 0s;
@@ -195,7 +197,10 @@
 #GROUP40.ladi-animation>.ladi-group,
 #PARAGRAPH14.ladi-animation>.ladi-paragraph,
 #IMAGE51.ladi-animation>.ladi-image,
-#IMAGE56.ladi-animation>.ladi-image {
+#IMAGE56.ladi-animation>.ladi-image,
+#HEADLINE262.ladi-animation>.ladi-headline,
+#HEADLINE263.ladi-animation>.ladi-headline,
+#HEADLINE264.ladi-animation>.ladi-headline {
   animation-name: zoomIn;
   -webkit-animation-name: zoomIn;
   animation-delay: 0s;
